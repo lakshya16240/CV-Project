@@ -1,9 +1,9 @@
 import cv2 as cv
 import numpy as np
 
-img1 = cv.imread('./PanaromaImages/ImageSet1/image1.jpg')
+img1 = cv.imread('/Users/lakshya/Desktop/Lakshya/Computer Vision/Project/PanoramaImages/ImageSet4/Image0Bottom.jpeg',0)
 
-img2 = cv.imread('./PanaromaImages/ImageSet1/image2.jpg',0)
+img2 = cv.imread('/Users/lakshya/Desktop/Lakshya/Computer Vision/Project/PanoramaImages/ImageSet4/Image0Top.jpeg',0)
 print(img1.shape)
 img1 = cv.resize(img1,(256,256))
 img2 = cv.resize(img2,(256,256))
